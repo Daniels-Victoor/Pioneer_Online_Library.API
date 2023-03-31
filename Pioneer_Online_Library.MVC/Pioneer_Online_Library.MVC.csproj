@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pioneer_Online_Library.API\Pioneer_Online_Library.API.csproj" />
+    <ProjectReference Include="..\Pioneer_Online_Library.Core\Pioneer_Online_Library.Core.csproj" />
+    <ProjectReference Include="..\Pioneer_Online_Library.Domain\Pioneer_Online_Library.Domain.csproj" />
+    <ProjectReference Include="..\Pioneer_Online_Library.Helpers\Pioneer_Online_Library.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
